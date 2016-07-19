@@ -1,5 +1,18 @@
-# Atom Dark Syntax theme
+# atom-dark-monokai-syntax
+A Monokai theme 
 
-A dark monokai syntax theme for Atom.
+## Install
 
-This theme is based on Atom Dark, i just changed a few colors to make it look Monokaish.
+```
+$ apm install atom-dark-monokai-syntax
+```
+
+## Preview
+
+### PHP
+
+![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/php.png)
+
+### LESS
+
+![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/less.png)
