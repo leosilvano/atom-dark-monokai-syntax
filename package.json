@@ -1,7 +1,7 @@
 {
   "name": "atom-dark-monokai-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A dark theme for syntax",
   "repository": "https://github.com/leosilvano/atom-dark-monokai-syntax",
   "keywords": [
