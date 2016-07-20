@@ -114,6 +114,9 @@ atom-text-editor, :host {
 
 .comment {
   color: #7C7C7C;
+  .keyword {
+    color: #7C7C7C;
+  }
 }
 
 .entity {
@@ -204,19 +207,20 @@ atom-text-editor, :host {
   &.regexp {
     color: #E6DB74;
 
+    .keyword,
     .constant.character.escape,
     .source.ruby.embedded,
     .string.regexp.arbitrary-repetition {
-      color: #FF8000;
+      color: #E6DB74;
     }
 
     &.group {
-      color: #C6A24F;
+      color: #E6DB74;
       background-color: rgba(255, 255, 255, 0.06);
     }
 
     &.character-class {
-      color: #B18A3D;
+      color: #E6DB74;
     }
   }
 
