@@ -141,6 +141,12 @@ atom-text-editor, :host {
   &.operator {
     color: #EDEDED;
   }
+
+  &.scss,
+  &.less,
+  &.css {
+      color: #FD971F;
+  }
 }
 
 .storage {
@@ -155,6 +161,16 @@ atom-text-editor, :host {
   color: #AE81FF;
 
   &.numeric {
+    color: #AE81FF;
+
+    &.scss,
+    &.less,
+    &.css {
+        color: #FD971F;
+    }
+  }
+
+  .punctuation {
     color: #AE81FF;
   }
 }
@@ -241,8 +257,16 @@ atom-text-editor, :host {
   }
 
   &.type.property-name.css {
-    color: #EDEDED;
+    color: #66D9EF;
   }
+
+  &.property-name {
+    color: #66D9EF;
+  }
+}
+
+.meta.property-name {
+  color: #66D9EF;
 }
 
 .source .entity.name.tag,
@@ -327,7 +351,8 @@ atom-text-editor, :host {
   }
 
   &.property-value .support.constant.named-color.css,
-  &.property-value .constant {
+  &.property-value .constant,
+  &.property-value .unit {
     color: #FD971F;
   }
 
