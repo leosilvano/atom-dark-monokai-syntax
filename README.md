@@ -20,3 +20,7 @@ $ apm install atom-dark-monokai-syntax
 ### CSS
 
 ![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/css.png)
+
+### LESS
+
+![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/less.png)
