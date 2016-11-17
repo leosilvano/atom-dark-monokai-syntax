@@ -3,7 +3,10 @@
   "theme": "syntax",
   "version": "0.6.0",
   "description": "A dark theme for syntax",
-  "repository": "https://github.com/leosilvano/atom-dark-monokai-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosilvano/atom-dark-monokai-syntax.git"
+  },
   "keywords": [
     "monokai",
     "syntax",
@@ -13,5 +16,25 @@
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
+  },
+  "readme": "# atom-dark-monokai-syntax\nA Monokai theme \n\n## Install\n\n```\n$ apm install atom-dark-monokai-syntax\n```\n\n## Preview\n\n### PHP\n\n![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/php.png)\n\n### LESS\n\n![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/less.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/leosilvano/atom-dark-monokai-syntax/issues"
+  },
+  "homepage": "https://github.com/leosilvano/atom-dark-monokai-syntax#readme",
+  "_id": "atom-dark-monokai-syntax@0.6.0",
+  "_shasum": "b5334d06e17558c670fc92284bf5b1a4ac294920",
+  "_resolved": "file:..\\d-116621-3008-1mts3zv\\package.tgz",
+  "_from": "..\\d-116621-3008-1mts3zv\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }

@@ -1,5 +1,5 @@
 # atom-dark-monokai-syntax
-A Monokai theme 
+A Monokai theme based on Atom Dark
 
 ## Install
 
@@ -13,6 +13,10 @@ $ apm install atom-dark-monokai-syntax
 
 ![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/php.png)
 
-### LESS
+### JS
 
-![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/less.png)
+![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/js.png)
+
+### CSS
+
+![](https://raw.githubusercontent.com/leosilvano/atom-dark-monokai-syntax/master/img/css.png)
